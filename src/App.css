@@ -1,3 +1,50 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(./future.png);
+    background-size: 1290px;
+    background-position-x: center;
 }
+
+.container{
+  text-align: center;
+  padding: 20px 50px;
+  max-width: 50%;
+  margin-top: 6%;
+
+}
+
+.header{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 75px;
+  margin: 0 auto;
+  color: #b6deff;
+}
+
+.sentence{
+  font-weight: 100;
+  font-family: monospace;
+  font-size: 15px;
+  color: #588db9;
+}
+
+.form-control, .btn{
+  display: inline;
+}
+
+.btn{
+  margin-left: 5px;
+  vertical-align: baseline;
+}
+
+.form-control{
+  width: 75%;
+}
+
+
+
+
+
