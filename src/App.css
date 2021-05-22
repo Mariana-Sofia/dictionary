@@ -1,12 +1,11 @@
 body {
-  background-image: url(./background.gif);
-    background-size: 1290px;
+  background-image: url(./background.jpg);
+    background-size: auto;
     background-position-x: center;
 }
 
 .container{
   text-align: center;
-  padding: 20px 50px;
   max-width: 50%;
   margin-top: 6%;
 
@@ -21,6 +20,7 @@ h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 75px;
   margin: 0 auto;
+  text-align: center;
   color: #b6deff;
 }
 
@@ -44,6 +44,61 @@ h1{
   width: 75%;
 }
 
+.formrow{
+  margin-top: 10%;
+}
+
+.col-6{
+  margin-top: 5%;
+  text-align: left;
+}
+
+ul{
+  list-style-type: circle;
+  padding: 0 0 0 8%;
+}
+
+li{
+  text-align: left;
+  padding: 1%;
+}
+
+li::first-letter{
+  text-transform:capitalize;
+}
+
+.noun{
+  text-align: left;
+  padding-top: 4%;
+  margin-bottom: 2%;
+  font-weight: 100;
+}
+
+.adjective,.synonyms{
+  text-align: left;
+  font-weight: 100;
+}
+
+.styling{
+  color: #b6deff;
+}
+
+h2, .spelling{
+  text-align: left;
+}
+
+h2{
+  margin-top: 4%;
+}
+
+.spelling{
+  font-style: italic;
+}
+
+img{
+  max-width: 20%;
+  max-height: 20%;
+}
 
 
 
