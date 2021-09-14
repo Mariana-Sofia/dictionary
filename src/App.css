@@ -1,7 +1,7 @@
 body {
-  background-image: url(./background.jpg);
-    background-size: auto;
-    background-position-x: center;
+  background-image: url(./background2.gif);
+    background-size: cover;
+    background-position: center;
 }
 
 .container{
@@ -12,12 +12,11 @@ body {
 }
 
 .header{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: -5%;
 }
 
 h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: fantasy;
   font-size: 75px;
   margin: 0 auto;
   text-align: center;
@@ -41,7 +40,7 @@ h1{
 }
 
 .form-control{
-  width: 75%;
+  width: 50%;
 }
 
 .formrow{
@@ -80,7 +79,7 @@ li::first-letter{
 }
 
 .styling{
-  color: #b6deff;
+  color: #ffffff;
 }
 
 h2, .spelling{
