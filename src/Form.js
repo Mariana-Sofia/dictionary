@@ -1,11 +1,19 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
+import axios from "axios";
 
 export default function Form(event) {
     let [keyword, setKeyword] = useState("");
 
+    function handleResponse(response) {
+        console.log(response.data[0]);
+    }
+
     function search(event) {
         event.preventDefault();
-        alert(`Searching for the meaning of ✨${keyword}✨`);
+
+        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+        console.log(apiUrl);
+        axios.get(apiUrl).then(handleResponse);
     }
 
     function keywordChange(event) {
